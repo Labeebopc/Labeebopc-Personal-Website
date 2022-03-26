@@ -757,7 +757,7 @@ footer span a{
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
     .max-width{
         padding: 0 3px;
         margin: 10px;
