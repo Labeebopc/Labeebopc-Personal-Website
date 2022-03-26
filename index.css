@@ -710,7 +710,7 @@ footer span a{
    
 }
 
-@media (max-width: 690px) {
+/*@media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
     }
@@ -755,9 +755,9 @@ footer span a{
         font-size: 23px;
         line-height: 38px;
     }
-}
+}*/
 
-@media (max-width: 470px) {
+@media (max-width: 690px) {
     .max-width{
         padding: 0 3px;
         margin: 10px;
@@ -806,8 +806,8 @@ footer span a{
       }
       .wrapper .icon span{
         display: block;
-        height: 25px;
-        width: 25px;
+        height: 40px;
+        width: 40px;
         background: rgb(51, 49, 49);
         border-radius: 50%;
         position: relative;
@@ -818,8 +818,8 @@ footer span a{
       }
     
       .wrapper .icon span i{
-        line-height: 26px;
-        font-size: 17px;
+        line-height: 40px;
+        font-size: 24px;
         color: #fff;
         
       }
