@@ -668,6 +668,10 @@ footer span a{
 }
 
 @media (max-width: 500px) {
+    .max-width{
+        padding: 0;
+        margin: 10px;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
@@ -691,6 +695,44 @@ footer span a{
         line-height: 38px;
     }
 }
+
+@media (max-width: 450px) {
+    .max-width{
+        padding: 0 3px;
+        margin: 10px;
+    }
+    .home .home-content .text-2{
+        font-size: 25px;
+    }
+    .home .home-content .text-3{
+        font-size: 18px;
+        
+    }
+    .home .home-content a{
+        font-size: 14px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 20px;
+    }
+
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 10px;
+        bottom: 10px;
+        height: 35px;
+        width: 33px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+
+}
+
 
 /* media buttons*/
 
