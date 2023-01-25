@@ -323,21 +323,26 @@ section .title::after{
     top: 0;
     background: crimson;
 }
+
+.skills-content .left .react::before{
+    width: 85%;
+}
+.skills-content .left .mongodb::before{
+    width: 75%;
+}
+.skills-content .left .node::before{
+    width: 80%;
+}
+.skills-content .left .express::before{
+    width: 75%;
+}
+.skills-content .left .git::before{
+    width: 75%;
+}
 .skills-content .left .html::before{
     width: 90%;
 }
-.skills-content .left .css::before{
-    width: 60%;
-}
-.skills-content .left .js::before{
-    width: 80%;
-}
-.skills-content .left .php::before{
-    width: 50%;
-}
-.skills-content .left .mysql::before{
-    width: 70%;
-}
+
 
 /* skills section styling right*/
 .skills .skills-content .right .bars{
@@ -369,41 +374,24 @@ section .title::after{
 }
 /* language %  */ 
 .skills-content .right .css::before{
-    width: 80%;
+    width: 85%;
 }
 .skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .jquery::before{
     width: 80%;
+}
+.skills-content .right .mysql::before{
+    width: 75%;
 }
 .skills-content .right .bootstrap::before{
     width: 90%;
 }
 .skills-content .right .api::before{
-    width: 60%;
-}
-.skills-content .right .cp::before{
-    width: 70%;
-}
-.skills-content .left .react::before{
     width: 80%;
 }
-.skills-content .left .mongodb::before{
-    width: 70%;
+.skills-content .right .redux::before{
+    width: 75%;
 }
-.skills-content .left .node::before{
-    width: 50%;
-}
-.skills-content .left .express::before{
-    width: 50%;
-}
-.skills-content .left .git::before{
-    width: 80%;
-}
-.skills-content .left .html::before{
-    width: 90%;
-}
+
 
 /* contact section styling */ 
 .contact{
